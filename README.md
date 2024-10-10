@@ -23,3 +23,38 @@
 - node index.js <br>
 
 <hr>
+
+<h3>Pre-Installation & Configurations </h3>
+- Download <a href="https://www.pgadmin.org/download/"> PG Admin </a> <br>
+- Install PG Admin and create the following tables and attributes: <br><br>
+
+<b>family_member</b><br>
+id <br>
+name <br>
+color <br>
+
+<b>countries</b><br>
+id <br>
+country_code <br>
+country_name <br>
+
+<b>visited_countries</b><br>
+countryid <br>
+country_code <br>
+family_member_id <br><br>
+
+- Import "countries.csv" to pgadmin table "countries" <br>
+
+<hr>
+
+<h3> Documentation: </h3>
+
+- https://www.pgadmin.org/docs/pgadmin4/8.12/index.html
+- https://www.w3schools.com/sql/
+
+<hr>
+
+<h3>How to use the App?</h3>
+<p> - After having everything set up and running the app with Node, go to <a href="http://localhost:3000/">Localhost</a>. </p>
+<p> - If needed, click on "Add Family Member". </p>
+<p> - Fill the input with a country of your choice. </p>
