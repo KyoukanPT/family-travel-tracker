@@ -41,7 +41,7 @@ country_name <br>
 <b>visited_countries</b><br>
 countryid <br>
 country_code <br>
-family_member_id <br><br>
+family_member_id (FOREIGN KEY FROM "family_member" id) <br><br>
 
 - Import "countries.csv" to pgadmin table "countries" <br>
 
