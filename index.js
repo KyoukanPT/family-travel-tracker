@@ -112,9 +112,6 @@ app.post("/new", async (req, res) => {
 
   console.log(color + " " + name);
 
-  //Hint: The RETURNING keyword can return the data that was inserted.
-  //https://www.postgresql.org/docs/current/dml-returning.html
-
 });
 
 app.listen(port, () => {
